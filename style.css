@@ -196,7 +196,6 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 4rem;
   background-color: #1E1E21;
   color: white;
   height: 40vh;
@@ -224,7 +223,7 @@ html, body {
 
 .line2 {
   width: 100%;
-  height: 0.4px;
+  height: 0.2px;
   color: white;
 }
 

@@ -197,3 +197,112 @@ html,body{
     opacity: 0.6;
    }
 }
+
+.connect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    background-color: #1E1E21;
+    color: white;
+    height: 40vh;
+    .connect-about{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        h2{
+            font-size: 1.8rem;
+            padding-bottom: 0.8rem;
+        }
+        h1{
+            font-size: 3.5rem;
+            padding-bottom: 0.8rem;
+        }
+        button{
+            padding: 16px 30px;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            border: none;
+        }
+    }
+}
+
+.line2{
+    width: 100%;
+    height: 0.4px;
+    color: white;
+}
+
+.pages{
+    background-color: #1E1E21;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .pages-about{
+        display: flex;
+        gap: 1.5rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+         button{
+            padding: 16px 30px;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            border: none;
+        }
+        .pages-about1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            padding-bottom: 2.5rem;
+            span{
+                opacity: 0.6;
+                font-size: 1.2rem;
+            }
+        }
+         .pages-about2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            padding-bottom: 2.5rem;
+               span{
+                opacity: 0.6;
+                font-size: 1.2rem;
+            }
+
+        }
+         .pages-about3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 2.5rem;
+            gap: 2rem;
+               span{
+                opacity: 0.6;
+                font-size: 1.2rem;
+            }
+        }
+}
+
+.custom-footer {
+  background-color: #1E1E21; 
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.custom-footer a {
+  color: white;
+  text-decoration: underline;
+}
